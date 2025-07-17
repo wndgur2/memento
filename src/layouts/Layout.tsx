@@ -13,17 +13,18 @@ const Container = styled.div`
 `
 
 const Header = styled.header`
-  background-color: #eee;
+  background-color: #a33;
   padding: 10px;
   text-align: center;
 `
 
 const Main = styled.main`
   padding: 20px;
+  border: 4px solid #0f0;
 `
 
 const NavigationBar = styled.footer`
-  background-color: #e33;
+  background-color: #a33;
   padding: 10px;
   text-align: center;
 `
@@ -33,6 +34,7 @@ export default function Layout() {
     <Container>
       <Header>Header</Header>
       <Main>
+        <h1>main</h1>
         <Outlet />
       </Main>
       <NavigationBar>Naviation bar</NavigationBar>
