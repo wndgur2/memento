@@ -1,16 +1,14 @@
 import type { Theme } from '@emotion/react'
-import { css, useTheme } from '@emotion/react'
+import { css } from '@emotion/react'
 import { Outlet } from 'react-router-dom'
 
 export interface ILayoutProps {}
 
 export default function Layout() {
-  const theme = useTheme()
   return (
     <div css={containerStyle}>
       <header css={headerStyle}>Header</header>
       <main css={[mainStyle]}>
-        <h1 css={{ color: theme.sky[500] }}>main</h1>
         <Outlet />
       </main>
       <footer css={footerStyle}>Naviation bar</footer>
