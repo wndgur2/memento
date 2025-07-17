@@ -2,7 +2,7 @@ import Bears from '@/components/Bears'
 import BearCounter from '@/components/BearCounter'
 import { Box } from '@solar-icons/react'
 import { css, useTheme } from '@emotion/react'
-import Badge from '@/components/badge'
+import Badge from '@/components/Badge'
 
 export interface IHomePageProps {}
 
