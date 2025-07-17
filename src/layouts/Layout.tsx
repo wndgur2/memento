@@ -1,43 +1,52 @@
+import { css, useTheme } from '@emotion/react'
 import { Outlet } from 'react-router-dom'
-import styled from '@emotion/styled'
 
 export interface ILayoutProps {}
 
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  max-width: 720px;
-  margin: 0 auto;
-  background-color: #f0f0f0;
-`
-
-const Header = styled.header`
-  background-color: #a33;
-  padding: 10px;
-  text-align: center;
-`
-
-const Main = styled.main`
-  padding: 20px;
-  border: 4px solid #0f0;
-`
-
-const NavigationBar = styled.footer`
-  background-color: #a33;
-  padding: 10px;
-  text-align: center;
-`
-
 export default function Layout() {
+  const theme = useTheme()
   return (
-    <Container>
-      <Header>Header</Header>
-      <Main>
+    <div css={containerStyle}>
+      <header css={headerStyle}>Header</header>
+      <main
+        css={[
+          mainStyle,
+          { color: theme.stone[900], backgroundColor: theme.bg },
+        ]}
+      >
         <h1>main</h1>
         <Outlet />
-      </Main>
-      <NavigationBar>Naviation bar</NavigationBar>
-    </Container>
+      </main>
+      <footer css={footerStyle}>Naviation bar</footer>
+    </div>
   )
 }
+
+const containerStyle = css({
+  display: 'flex',
+  flexDirection: 'column',
+  minHeight: '100vh',
+  maxWidth: '720px',
+  margin: '0 auto',
+  backgroundColor: '#f0f0f0',
+})
+
+const headerStyle = css({
+  backgroundColor: '#a33',
+  padding: '10px',
+  textAlign: 'center',
+})
+
+const mainStyle = css({
+  padding: '20px',
+  border: '4px solid #0f0',
+})
+
+const footerStyle = css({
+  backgroundColor: '#a33',
+  padding: '10px',
+  textAlign: 'center',
+})
+
+// Exporting the styles for potential reuse
+export { containerStyle, headerStyle, footerStyle }
