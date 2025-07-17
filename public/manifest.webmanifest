@@ -2,12 +2,12 @@
   "name": "Memento",
   "short_name": "Memento",
   "description": "역삼에서 함께한 추억과 그 이후의 이야기",
-  "theme_color": "#74D4FF",
+  "theme_color": "#FEFEFA",
   "background_color": "#FEFEFA",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "icon1.png",
       "sizes": "512x512",
       "type": "image/png"
     }
