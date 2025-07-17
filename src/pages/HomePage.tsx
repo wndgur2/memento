@@ -8,7 +8,7 @@ export function HomePage() {
     <div>
       <h1>Hello world!</h1>
       <div>
-        상태관리 example
+        <p>상태관리 example</p>
         <Bears />
         <BearCounter />
       </div>

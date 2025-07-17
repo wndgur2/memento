@@ -1,3 +1,4 @@
+import type { Theme } from '@emotion/react'
 import { css, useTheme } from '@emotion/react'
 import { Outlet } from 'react-router-dom'
 
@@ -8,13 +9,8 @@ export default function Layout() {
   return (
     <div css={containerStyle}>
       <header css={headerStyle}>Header</header>
-      <main
-        css={[
-          mainStyle,
-          { color: theme.stone[900], backgroundColor: theme.bg },
-        ]}
-      >
-        <h1>main</h1>
+      <main css={[mainStyle]}>
+        <h1 css={{ color: theme.sky[500] }}>main</h1>
         <Outlet />
       </main>
       <footer css={footerStyle}>Naviation bar</footer>
@@ -31,16 +27,21 @@ const containerStyle = css({
   backgroundColor: '#f0f0f0',
 })
 
-const headerStyle = css({
-  backgroundColor: '#a33',
-  padding: '10px',
-  textAlign: 'center',
-})
+const headerStyle = (theme: Theme) =>
+  css({
+    backgroundColor: '#a33',
+    padding: '10px',
+    textAlign: 'center',
+    color: theme.sky[500],
+  })
 
-const mainStyle = css({
-  padding: '20px',
-  border: '4px solid #0f0',
-})
+const mainStyle = (theme: Theme) =>
+  css({
+    padding: '20px',
+    border: '4px solid #000',
+    color: theme.stone[900],
+    backgroundColor: theme.bg,
+  })
 
 const footerStyle = css({
   backgroundColor: '#a33',
