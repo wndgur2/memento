@@ -1,4 +1,4 @@
-import { BADGES } from '@/consts/BADGEs'
+import { ACHIEVEMENTS } from '@/consts/ACHIEVEMENTS.tsx'
 import { css } from '@emotion/react'
 
 export interface IBadgeProps {
@@ -6,21 +6,21 @@ export interface IBadgeProps {
 }
 
 export default function Badge({ name }: IBadgeProps) {
-  if (!BADGES[name]) return null
+  if (!ACHIEVEMENTS[name]) return null
 
   return (
     <div
       css={[
         badgeStyle,
         {
-          backgroundColor: BADGES[name].backgroundColor,
-          color: BADGES[name].color,
-          border: `2px solid ${BADGES[name].border}`,
+          backgroundColor: ACHIEVEMENTS[name].backgroundColor,
+          color: ACHIEVEMENTS[name].color,
+          border: `2px solid ${ACHIEVEMENTS[name].border}`,
         },
       ]}
     >
-      <div>{BADGES[name].icon}</div>
-      <span>{BADGES[name].name}</span>
+      <div>{ACHIEVEMENTS[name].icon}</div>
+      <span>{ACHIEVEMENTS[name].name}</span>
     </div>
   )
 }

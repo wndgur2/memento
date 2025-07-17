@@ -1,6 +1,6 @@
 import { UsersGroupTwoRounded } from '@solar-icons/react'
 
-export const BADGES: { [name: string]: IBadge } = {
+export const ACHIEVEMENTS: { [name: string]: IBadge } = {
   프로참석러: {
     name: '프로참석러',
     color: '#f0f',
