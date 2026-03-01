@@ -1,5 +1,5 @@
 ---
-date_started: 2025.09.01
+date_started: 2025.08.01
 date_finished: 2025.11.30
 head_count: 5
 role: FE, INFRA
@@ -12,8 +12,7 @@ thumbnail: https://github.com/user-attachments/assets/5ef53dd8-e315-47dc-8169-7b
 
 ### 아카이빙에 집중한 소셜 네트워크 서비스
 
-- 인원: 5명
-- 기간: 2025.08 ~
+- 인원: 5명 (FE 2, BE 3)
 - 서비스 주소: https://memento.ai.kr
 
 ## 기술스택
