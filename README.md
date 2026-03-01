@@ -1,3 +1,10 @@
+---
+date_started: 2025.09.01
+date_finished: 2025.11.30
+head_count: 5
+role: FE, INFRA
+---
+
 # MEMENTO
 
 ## 개요
