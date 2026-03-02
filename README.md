@@ -6,6 +6,9 @@ role: FE, INFRA
 thumbnail: https://github.com/user-attachments/assets/5ef53dd8-e315-47dc-8169-7b566077a132
 ---
 
+<img width="760" height="786" alt="Frame 1739334163" src="https://github.com/user-attachments/assets/8c562510-e01e-43ba-85a8-45ebb0f529e8" />
+
+
 # MEMENTO
 
 ## 개요
