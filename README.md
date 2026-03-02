@@ -8,7 +8,6 @@ thumbnail: https://github.com/user-attachments/assets/5ef53dd8-e315-47dc-8169-7b
 
 <img width="760" height="786" alt="Frame 1739334163" src="https://github.com/user-attachments/assets/8c562510-e01e-43ba-85a8-45ebb0f529e8" />
 
-
 # MEMENTO
 
 ## 개요
@@ -18,40 +17,56 @@ thumbnail: https://github.com/user-attachments/assets/5ef53dd8-e315-47dc-8169-7b
 - 인원: 5명 (FE 2, BE 3)
 - 서비스 주소: https://memento.ai.kr
 
+---
+
 ## 기술스택
 
 ### Language & Framework
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=20232A)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
-![SWC](https://img.shields.io/badge/SWC-FFCE45?logo=swc&logoColor=000000)
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=20232A" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/SWC-FFCE45?logo=swc&logoColor=000000" />
+</div>
 
 ### 상태 관리 & 데이터
 
-![Zustand](https://img.shields.io/badge/zustand-602c3c?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAA8FBMVEVHcExXQzpKQDlFV16lpqyGh4tPPTdWT0weHRU7LRZGQzmxYjlaTkZsbmywVyxtXDSFhISXm6WWpcaytb6bm56gprY0LiiXmp2prLamsMa0XS42MSxkTUVDSkuyYzGihXdDV2GprbmedVxaRD1kTUWUdGFGOCN4a2OfpbI0SFFAMSddTkbCc0dWQiGFRypXQyJUQCBcTTWviDVXQyJcUDjlqCWxjkG+hBTiohtURD6lr8lORTtDVVZmPyxwSipaRSJDOzaWpsyYqMyYqM2dq8tPOjBERTs6QUKTcCeKaCJvViZdSDK4iSngoiDvqx7KkRuGEi1hAAAAOXRSTlMApZ78cB8hCAMQO/j/FOH4KlT1wFfJTjaY6SxtVexFn3Tn2sN6d671mVuJ+/PPN9CT6TfpS4C9jJaVLRihAAAAi0lEQVQIHXXBxRKCUAAF0Es/QMDubsVuGrv1///GBQ4bx3PwgwC8gFCRohs8QrQV0ZtKOZ9JcgBmU8MwqFa9kjNTUWB58f2jPOjU9juTBTbPq+vIar972MZjwPr1uDvqCFw2wQpQVm/t7Oo9gAgAFtrtZNtMFQFp7nkWU5IQECfjYbuQFvBFRJHgjw9L0A80UmaGpAAAAABJRU5ErkJggg==)
-![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?logo=reactquery&logoColor=white)
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+  <img src="https://img.shields.io/badge/zustand-602c3c?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAA8FBMVEVHcExXQzpKQDlFV16lpqyGh4tPPTdWT0weHRU7LRZGQzmxYjlaTkZsbmywVyxtXDSFhISXm6WWpcaytb6bm56gprY0LiiXmp2prLamsMa0XS42MSxkTUVDSkuyYzGihXdDV2GprbmedVxaRD1kTUWUdGFGOCN4a2OfpbI0SFFAMSddTkbCc0dWQiGFRypXQyJUQCBcTTWviDVXQyJcUDjlqCWxjkG+hBTiohtURD6lr8lORTtDVVZmPyxwSipaRSJDOzaWpsyYqMyYqM2dq8tPOjBERTs6QUKTcCeKaCJvViZdSDK4iSngoiDvqx7KkRuGEi1hAAAAOXRSTlMApZ78cB8hCAMQO/j/FOH4KlT1wFfJTjaY6SxtVexFn3Tn2sN6d671mVuJ+/PPN9CT6TfpS4C9jJaVLRihAAAAi0lEQVQIHXXBxRKCUAAF0Es/QMDubsVuGrv1///GBQ4bx3PwgwC8gFCRohs8QrQV0ZtKOZ9JcgBmU8MwqFa9kjNTUWB58f2jPOjU9juTBTbPq+vIar972MZjwPr1uDvqCFw2wQpQVm/t7Oo9gAgAFtrtZNtMFQFp7nkWU5IQECfjYbuQFvBFRJHgjw9L0A80UmaGpAAAAABJRU5ErkJggg==" />
+  <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?logo=reactquery&logoColor=white" />
+</div>
 
 ### UI & Icon
 
-![Emotion](https://img.shields.io/badge/Emotion-DB7093?logo=emotion&logoColor=white)
-![@solar-icons/react](https://img.shields.io/badge/%40solar--icons%2Freact-FFB400?logo=starship&logoColor=white)
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+  <img src="https://img.shields.io/badge/Emotion-DB7093?logo=emotion&logoColor=white" />
+  <img src="https://img.shields.io/badge/%40solar--icons%2Freact-FFB400?logo=starship&logoColor=white" />
+</div>
 
 ### Build & Tooling
 
-![pnpm](https://img.shields.io/badge/pnpm-F69220?logo=pnpm&logoColor=white)
-![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+  <img src="https://img.shields.io/badge/pnpm-F69220?logo=pnpm&logoColor=white" />
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white" />
+</div>
 
 ### 코드 품질
 
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=000000)
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=000000" />
+</div>
 
 ### 테스트
 
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white)
-![React Testing Library](https://img.shields.io/badge/React%20Testing%20Library-E33332?logo=testinglibrary&logoColor=white)
-![Storybook](https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white)
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
+  <img src="https://img.shields.io/badge/Vitest-6E9F18?logo=vitest&logoColor=white" />
+  <img src="https://img.shields.io/badge/React%20Testing%20Library-E33332?logo=testinglibrary&logoColor=white" />
+  <img src="https://img.shields.io/badge/Storybook-FF4785?logo=storybook&logoColor=white" />
+</div>
+
+---
 
 ## 디렉토리 구조
 
@@ -73,4 +88,3 @@ front-end/
 ├── docker/                 # 도커 관련 설정
 ├── vite.config.ts          # Vite 설정
 └── package.json
-```
