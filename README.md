@@ -3,7 +3,6 @@ date_started: 2025.08.01
 date_finished: 2025.11.30
 head_count: 5
 role: FE, INFRA
-thumbnail: https://github.com/user-attachments/assets/5ef53dd8-e315-47dc-8169-7b566077a132
 ---
 
 <img width="320" src="https://github.com/user-attachments/assets/5ef53dd8-e315-47dc-8169-7b566077a132" />
